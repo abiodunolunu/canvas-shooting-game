@@ -98,7 +98,7 @@
         playerPosition.x - enemyPosition.x
       );
 
-      const speedFactor = getRandomNumberInRange(1, 4);
+      const speedFactor = getRandomNumberInRange(1, 5);
 
       const velocity = {
         x: Math.cos(angle) * speedFactor,
